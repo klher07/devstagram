@@ -1,1 +1,1 @@
-web: cp .env.example .env && php artisan key:generate && heroku-php-apache2 i php=8.1 public/
+web: cp .env.example .env && php artisan key:generate && heroku-php-apache2
